@@ -1,0 +1,4 @@
+
+weapon TEST_WEAPON WSF_EXPLICIT_WEAPON
+    range 100 m
+end_weapon

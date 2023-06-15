@@ -1,0 +1,28 @@
+include_once platforms/test_platform.txt
+platform
+p1
+
+
+
+
+
+TEST_PLATFORM
+    # comment 1
+    // comment 2
+    /*
+        multiline comment
+    */
+end_platform
+
+
+include_once weapon_effects/test_weapon_effects.txt
+include_once weapons/test_weapon.txt
+platform p2 TEST_PLATFORM
+    weapon_effects TEST_WEAPON_EFFECTS
+    weapon w1 TEST_WEAPON
+        range 50 m
+    end_weapon
+    weapon w2 TEST_WEAPON
+    end_weapon
+end_platform
+

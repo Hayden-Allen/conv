@@ -1,0 +1,4 @@
+
+platform_type TEST_PLATFORM WSF_PLATFORM
+
+end_platform_type

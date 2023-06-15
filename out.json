@@ -1,0 +1,101 @@
+{
+    "platform": {
+        "p1_0": {
+            "Name": "p1_0",
+            "Type": "TEST_PLATFORM",
+            "__params__": {}
+        },
+        "p2_0": {
+            "Name": "p2_0",
+            "Type": "TEST_PLATFORM",
+            "__params__": {
+                "weapon": [
+                    {
+                        "Name": "w1_0",
+                        "Type": "TEST_WEAPON",
+                        "__params__": {
+                            "range": [
+                                "50 m"
+                            ]
+                        }
+                    },
+                    {
+                        "Name": "w2_0",
+                        "Type": "TEST_WEAPON",
+                        "__params__": {
+                            "range": [
+                                "100 m"
+                            ]
+                        }
+                    }
+                ],
+                "weapon_effects": [
+                    "TEST_WEAPON_EFFECTS"
+                ]
+            }
+        }
+    },
+    "platform_type": {
+        "TEST_PLATFORM": {
+            "Base": "WSF_PLATFORM",
+            "Type": "TEST_PLATFORM",
+            "__params__": {}
+        }
+    },
+    "weapon": {
+        "w1_0": {
+            "Name": "w1_0",
+            "Type": "TEST_WEAPON",
+            "__params__": {
+                "range": [
+                    "50 m"
+                ]
+            }
+        },
+        "w2_0": {
+            "Name": "w2_0",
+            "Type": "TEST_WEAPON",
+            "__params__": {
+                "range": [
+                    "100 m"
+                ]
+            }
+        }
+    },
+    "weapon_effects_type": {
+        "TEST_WEAPON_EFFECTS": {
+            "Base": "WSF_WEAPON_EFFECTS",
+            "Type": "TEST_WEAPON_EFFECTS",
+            "__params__": {
+                "radius_and_pk": [
+                    [
+                        "100 m",
+                        "1"
+                    ],
+                    [
+                        "50 m",
+                        ".5"
+                    ],
+                    [
+                        "10 m",
+                        "0"
+                    ]
+                ],
+                "range": [
+                    "100 m"
+                ]
+            }
+        }
+    },
+    "weapon_type": {
+        "TEST_WEAPON": {
+            "Base": "WSF_EXPLICIT_WEAPON",
+            "Type": "TEST_WEAPON",
+            "__params__": {
+                "range": [
+                    "100 m"
+                ]
+            }
+        }
+    }
+}

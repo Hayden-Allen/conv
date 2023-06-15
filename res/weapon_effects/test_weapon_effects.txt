@@ -1,0 +1,6 @@
+weapon_effects TEST_WEAPON_EFFECTS WSF_WEAPON_EFFECTS
+    radius_and_pk 100 m 1
+    radius_and_pk 50 m .5
+    radius_and_pk 10 m 0
+    range 100 m
+end_weapon_effects
